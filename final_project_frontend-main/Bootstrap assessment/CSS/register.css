@@ -1,0 +1,32 @@
+body {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.form-control, .form-control-file, .form-check-label, .form-control:focus, .form-control-file:focus, .form-check-input:focus {
+    background-color: #333333;
+    border-color: #555555;
+    color: #ffffff;
+}
+
+.form-control::placeholder, .form-control-file::placeholder, .form-check-label::placeholder {
+    color: #aaaaaa;
+}
+
+label {
+    color: #ffffff;
+}
+
+.btn-primary {
+    background-color: #1a73e8;
+    border-color: #1a73e8;
+}
+
+.btn-primary:hover {
+    background-color: #155ab6;
+    border-color: #155ab6;
+}
+
+.container {
+    max-width: 700px;
+}
